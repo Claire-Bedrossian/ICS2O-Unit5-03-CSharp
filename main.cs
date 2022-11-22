@@ -10,7 +10,9 @@ class Program
     public static void Main(string[] args)
     {
         System.Random random = new System.Random();
-        // This function accepts user input
+
+// This function accepts user input
+
     double age; 
         
         Console.WriteLine(" This program will tell you what movies you may watch. Please enter your age below...");
@@ -34,7 +36,6 @@ class Program
         else {
         Console.WriteLine("You probably shouldn't see a movie alone.");
         }
-
         Console.WriteLine("");
         Console.WriteLine("\nDone.");
     }
