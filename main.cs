@@ -11,9 +11,9 @@ class Program
     {
         System.Random random = new System.Random();
 
-// This function accepts user input.
+ // This function accepts user input.
 
-    double age; 
+double age;
         
         Console.WriteLine(" This program will tell you what movies you may watch. Please enter your age below...");
         Console.WriteLine("");
@@ -31,10 +31,11 @@ class Program
         }
         else if (age >= 5)
         {
-        Console.WriteLine("You may see a G or PG movie alone.");
+            Console.WriteLine("You may see a G or PG movie alone.");
         }
-        else {
-        Console.WriteLine("You probably shouldn't see a movie alone.");
+        else    
+        {
+            Console.WriteLine("You probably shouldn't see a movie alone.");
         }
         Console.WriteLine("");
         Console.WriteLine("\nDone.");
