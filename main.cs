@@ -11,9 +11,7 @@ class Program
     {
         System.Random random = new System.Random();
 
- // This function accepts user input.
-
-double age;
+        double age;
         
         Console.WriteLine(" This program will tell you what movies you may watch. Please enter your age below...");
         Console.WriteLine("");
