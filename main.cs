@@ -11,7 +11,7 @@ class Program
     {
         System.Random random = new System.Random();
 
-// This function accepts user input
+// This function accepts user input.
 
     double age; 
         
